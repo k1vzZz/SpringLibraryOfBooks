@@ -1,12 +1,14 @@
 <%@ taglib prefix="sf" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="s" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="s" uri="http://www.springframework.org/tags" %>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Update</title>
-    <style><%@include file="/resources/web-style.css"%></style>
+    <style>
+        <%@include file="/resources/web-style.css" %>
+    </style>
 </head>
 <body>
 <header>
@@ -19,7 +21,7 @@
 </header>
 <div class="containers">
     <div class="context">
-<sf:form method="post" modelAttribute="book" action="/library/${book.id}/update">
+        <sf:form method="post" modelAttribute="book" action="/library/${book.id}/update">
             <label for="name_book">Name book:</label>
             <sf:input path="name" id="name_book" size="20" maxlength="40"/>
             <span class="error"><sf:errors path="name"/></span><br/>
@@ -33,8 +35,8 @@
             <sf:input path="author" size="20" maxlength="100" id="name_author"/>
             <span class="error"><sf:errors path="author"/></span><br/>
             <sf:button id="button_update">Update</sf:button>
-</sf:form>
-<a class="url_reg_button" href="<s:url value="/library/${book.id}"/>">Cancel</a>
+        </sf:form>
+        <a class="url_reg_button" href="<s:url value="/library/${book.id}"/>">Cancel</a>
     </div>
 </div>
 </body>

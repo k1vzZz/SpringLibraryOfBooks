@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-
-.scene_library{
+.scene_library {
     position: relative;
     z-index: 1;
     background: whitesmoke;
@@ -22,10 +21,12 @@
     border-collapse: collapse;
     color: black;
 }
+
 .table_col th:first-child, .table_col td:first-child {
     color: black;
     border-left: none;
 }
+
 .table_col th {
     font-weight: normal;
     border-bottom: 2px solid #76b852;
@@ -33,6 +34,7 @@
     border-left: 20px solid whitesmoke;
     padding: 8px 10px;
 }
+
 .table_col td {
     border-right: 20px solid whitesmoke;
     border-left: 20px solid whitesmoke;
@@ -76,14 +78,17 @@ header h2::before {
     padding: 8% 0 0;
     margin: auto;
 }
-.upper{
+
+.upper {
     text-align: center;
 }
-.error{
+
+.error {
     color: red;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
 }
+
 .context {
     position: relative;
     z-index: 1;
@@ -94,6 +99,7 @@ header h2::before {
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
+
 .context input {
     font-family: "Roboto", sans-serif;
     outline: 0;
@@ -105,7 +111,8 @@ header h2::before {
     box-sizing: border-box;
     font-size: 14px;
 }
-.url_reg_button{
+
+.url_reg_button {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
@@ -116,6 +123,7 @@ header h2::before {
     font-size: 14px;
     cursor: pointer;
 }
+
 .context button {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
@@ -128,14 +136,17 @@ header h2::before {
     font-size: 14px;
     cursor: pointer;
 }
-.context button:hover,.context button:active,.context button:focus {
+
+.context button:hover, .context button:active, .context button:focus {
     background: #43A047;
 }
+
 .context .message {
     margin: 15px 0 0;
     color: #b3b3b3;
     font-size: 12px;
 }
+
 .context .message a {
     color: #4CAF50;
     text-decoration: none;
@@ -147,15 +158,18 @@ header h2::before {
     max-width: 300px;
     margin: 0 auto;
 }
+
 .container:before, .container:after {
     content: "";
     display: block;
     clear: both;
 }
+
 .container .info {
     margin: 50px auto;
     text-align: center;
 }
+
 .container .info h1 {
     margin: 0 0 15px;
     padding: 0;
@@ -163,17 +177,21 @@ header h2::before {
     font-weight: 300;
     color: #1a1a1a;
 }
+
 .container .info span {
     color: #4d4d4d;
     font-size: 12px;
 }
+
 .container .info span a {
     color: #000000;
     text-decoration: none;
 }
+
 .container .info span .fa {
     color: #EF3B3A;
 }
+
 body {
     background: #76b852;
     background: -webkit-linear-gradient(right, #76b852, #8DC26F);
